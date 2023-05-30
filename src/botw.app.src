@@ -1,0 +1,14 @@
+{application, 'botw', [
+    {description, "Brackets on the Wire: a network bot in LFE"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {licenses, ["ISC"]},
+    {links, []}
+ ]}.
